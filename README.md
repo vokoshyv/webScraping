@@ -18,3 +18,7 @@ apt-get update
 apt-get install nodejs
 ```
 
+### Resources
+[Request-Promise](https://github.com/request/request-promise)
+[Cheerio](https://github.com/cheeriojs/cheerio)
+[Horseman](https://github.com/johntitus/node-horseman)
