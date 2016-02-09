@@ -5,7 +5,7 @@ var stopWords = require('./stopWords.js');
 
 
 var options = {
-    uri: 'http://www.cnn.com/',
+    uri: 'https://www.reddit.com/',
     transform: function (body) {
         return cheerio.load(body);
     }
@@ -14,7 +14,7 @@ var options = {
 
 rp(options)
 .then(function($){
-  var work = $('div.column').find('ul').find('h3.cd__headline').find('span.cd__headline-text').text();
+  var work = $('div.thing').find('a.title').text();
   
   work = work.split(' ');
 
