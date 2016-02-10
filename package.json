@@ -18,6 +18,7 @@
   "homepage": "https://github.com/vokoshyv/webScraping#readme",
   "dependencies": {
     "cheerio": "^0.20.0",
+    "node-horseman": "^2.8.2",
     "request-promise": "^2.0.0"
   }
 }
