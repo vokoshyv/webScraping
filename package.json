@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vokoshyv/webScraping#readme",
   "dependencies": {
+    "airtable": "^0.5.10",
     "cheerio": "^0.20.0",
     "request-promise": "^2.0.0"
   }
